@@ -1,0 +1,54 @@
+[
+  {
+    "BackEnd": {
+      "NodeJs": {
+        "titulo": "Node Js",
+        "texto": "Node.js é um software que permite a execução de códigos JavaScript fora de um navegador web."
+      },
+      "PostMan": {
+        "titulo": "Axios",
+        "texto": "Utilizado pra fazer requisição HTTP baseadas em promises."
+      },
+      "PostMan2": {
+        "titulo": "Express",
+        "texto": " Framework padrão de aplicativos web para construir API"
+      },
+      "JavaScript": {
+        "titulo": "JavaScript",
+        "texto": "Usado para criar a logica e estrutura por trás dos sites."
+      }      
+    },
+    "frontEnd": {
+      "HTML": {
+        "titulo": "HTML",
+        "texto": "Usado para criar a estrutura dos sites."
+      },
+      "CSS": {
+        "titulo": "CSS",
+        "texto": "Usado para criar a estrutura dos sites."
+      },
+      "JavaScript": {
+        "titulo": "JavaScript",
+        "texto": "Usado para criar a logica e estrutura por trás dos sites."
+      },
+      "React JS": {
+        "titulo": "React JS",
+        "texto": "Usado pra criação de landing page e sitemas."
+      },
+      "Angular JS": {
+        "titulo": "Angular JS",
+        "texto": "Usado pra criação de landing page e sitemas."
+      }
+    },
+    "Banco de Dados": {
+        "MySQL": {
+          "titulo": "MySQL",
+          "texto": "é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. Utilizei em conjuto com o PL/SQL pra criar alguns sistemas de dashboard pra empresas."
+        },
+        "Oracle PL/SQL": {
+          "titulo": "Oracle PL/SQL",
+          "texto": "Banco de dados Oracle muito utilizado em sistemas legados. É o que eu utilizo na empresa que eu trabalho!"
+        }
+      }
+  }
+]
