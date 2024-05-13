@@ -1,6 +1,6 @@
 import imgAboutMe from "../../public/img2-aboutMe.png";
 // import curriculo from "../../public/oswaldo mauricio.pdf - desenvolvedor.pdf";
-import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 // import { FaDownload, FaEnvelope } from "react-icons/fa";
 
@@ -24,7 +24,16 @@ function AboutMe() {
           Manaus, Amazonas
         </h3>
         <p className="container font-medium text-lg text-gray-text text-center leading-9 w-3/5 h-full pb-10">
-        Entusiasta da tecnologia e apaixonado pela programação, estou constantemente impulsionado pela possibilidade de criar soluções inovadoras. Atualmente, estou focado em aprimorar minhas habilidades em desenvolvimento, especialmente em tecnologias como React, Angular, Node, Express e etc. Sou um programador dedicado, sempre disposto a colaborar com meus colegas e comprometido em impulsionar minha carreira e meu sucesso profissional.
+          Entusiasta da tecnologia e aficionado pela arte da programação, estou
+          sempre animado com a oportunidade de criar soluções inovadoras.
+          Atualmente, estou imerso no aprimoramento das minhas habilidades em
+          desenvolvimento, especialmente em tecnologias como React, Angular,
+          Node, Express, e muito mais. Estou entrando no universo do
+          desenvolvimento de sites como freelancer, e meu compromisso é oferecer
+          não apenas qualidade técnica, mas uma experiência excepcional ao
+          cliente. Sou um programador dedicado, apaixonado por desafios e pronto
+          para colaborar de maneira ágil e eficiente com você, garantindo que
+          cada projeto seja uma jornada de sucesso mútuo.
         </p>
 
         <div className="text-white flex items-center gap-6 h-full pb-8 flex-col xlm:flex-row">
@@ -33,17 +42,29 @@ function AboutMe() {
               Curriculo <FaDownload />
             </button>
           </a> */}
-          <a href="https://www.instagram.com/oswaldo.mauriciio/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.instagram.com/oswaldo.mauriciio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="flex items-center gap-2 border-2 border-green-button py-3 px-5 rounded-lg hover:border-white shadow-lg hover:shadow-cyan-500/50">
               Instagram <FaInstagram />
             </button>
           </a>
-          <a href="https://github.com/oswaldomauricio" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/oswaldomauricio"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="flex items-center gap-2 border-2 border-green-button py-3 px-5 rounded-lg hover:border-white shadow-lg hover:shadow-cyan-500/50">
               GitHub <FaGithub />
             </button>
           </a>
-          <a href="https://www.linkedin.com/in/oswaldo-mauricio/" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.linkedin.com/in/oswaldo-mauricio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <button className="flex items-center gap-2 border-2 border-green-button py-3 px-5 rounded-lg hover:border-white shadow-lg hover:shadow-cyan-500/50">
               Linkedin <FaLinkedin />
             </button>
